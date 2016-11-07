@@ -2,7 +2,6 @@
 
 ip_addr = raw_input("Please enter IP address: ")
 my_ip_list = ip_addr.split(".")
-my_ip_list[-1] = 0
 
 ip_binary = []
 ip_binary.append(bin(int(my_ip_list[0])))
