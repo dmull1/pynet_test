@@ -6,4 +6,4 @@ for i in my_list:
     if i == 13:
         continue
     print i
-        break
+        pass
