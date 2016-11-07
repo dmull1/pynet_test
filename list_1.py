@@ -8,5 +8,5 @@ for i in my_list:
     if i == 19:
         continue
     print i
-        if i == 45:
+    if i == 45:
         break
