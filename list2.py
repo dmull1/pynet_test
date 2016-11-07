@@ -7,4 +7,4 @@ print my_list.pop(0)
 
 print "Length of list: {}".format(len(my_list))
 my_list.sort()
-print my_listt
+print my_list
