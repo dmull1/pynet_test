@@ -22,7 +22,7 @@ def main():
     pynet_sw1 = {
         'device_type': 'arista_eos',
         'ip':   '184.105.247.74',
-        'username': 'admin1',
+        'username': 'pyclass',
         'password': '88newclass',
     }
 
