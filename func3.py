@@ -6,9 +6,9 @@ def my_func(x, y, z=20):
 
 my_list = [22, 17, 19]
 my_dict = {
-    'x': 13,
-    'y': 22,
-    'z': 1,
+    'x': 178,
+    'y': 99,
+    'z': 45,
 }
 
 print
