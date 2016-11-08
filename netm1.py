@@ -16,14 +16,14 @@ def main():
         'device_type': 'cisco_ios',
         'ip':   '184.105.247.71',
         'username': 'pyclass',
-        'password': 88newclass,
+        'password': '88newclass',
     }
 
     pynet_sw1 = {
         'device_type': 'arista_eos',
         'ip':   '184.105.247.73',
         'username': 'admin1',
-        'password': 88newclass,
+        'password': '88newclass',
     }
 
     for a_device in (pynet_rtr1, pynet_sw1):
