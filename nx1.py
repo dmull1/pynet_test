@@ -9,5 +9,4 @@ nxs_test = Device(host=nexus_ip, username="pyclass", password=getpass(),
 
 my_facts = nxs_test.facts
 pprint(nxs_test.facts)
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security
+
