@@ -4,7 +4,8 @@ def my_func(x, y, z=20):
     return x + y + z
 
 
-
+print
+print
 return_val = my_func(10, 20, 30)
 print "Calling with three positional args: {}".format(return_val)
 
