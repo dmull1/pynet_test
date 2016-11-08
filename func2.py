@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 def my_func(x, y, z=20):
-    return x + y + z
+    return x + y + z+5
 
 
 print
@@ -15,7 +15,7 @@ print "Calling with two named args: {}".format(return_val)
 return_val = my_func(10, z=63, y=20)
 print "Calling with one positional and two named args: {}".format(return_val)
 
-return_val = my_func(x='x', y='y+1', z='z')
+return_val = my_func(x='x', y='y', z='z')
 print "Calling with three strings: {}".format(return_val)
 
 return_val = my_func(x=['x'], y=['y'], z=['z'])
