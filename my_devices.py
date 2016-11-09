@@ -36,8 +36,17 @@ pynet_sw1 = {
     'optional_args': {},
 }
 
+nxos1 = {
+    'device_type': 'nxos',
+    'hostname': 'nxos1.twb-tech.com',
+    'username': 'pyclass',
+    'password': '88newclass',
+    'optional_args': {'nxos_protocol': 'https', 'port': 8443}
+}
+
 device_list = [
         pynet_rtr1,
         pynet_rtr2,
         pynet_sw1,
+        nxos1,
 ]
