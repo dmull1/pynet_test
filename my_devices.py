@@ -28,8 +28,16 @@ pynet_rtr2 = {
     'optional_args': {},
 }
 
+pynet_sw1 = {
+    'device_type': 'eos',
+    'hostname': '184.105.247.72',
+    'username': 'pyclass',
+    'password': '88newclass',
+    'optional_args': {},
+}
 
 device_list = [
         pynet_rtr1,
         pynet_rtr2,
+        pynet_sw1,
 ]
